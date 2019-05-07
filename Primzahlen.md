@@ -1,4 +1,4 @@
-# Primzahlen
+
 module main
 
 sub main()
