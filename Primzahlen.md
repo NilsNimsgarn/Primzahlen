@@ -18,14 +18,14 @@ console.readline()
 end sub
 
 
-Public Function Primzahl(ByVal Prim As Long) As Boolean    ' Die Funktion liefert einen
-    Dim i As Long                        ' Booleschen Wert zurück. Der 
-    For i = 2 To Prim - 1                    ' Parameter Prim bildet die Basis 
-        If Prim Mod i = 0 Then                    ' der Funktion. Ansonsten gilt die
-            Primzahl = False                    ' Struktur der alten j- Schleife.
-            Exit Function                        ' Prim stellt die zu testende 
-        End If                            ' Primzahl dar, was aber klar sein
-    Next I                            ' sollte.
+Public Function Primzahl(ByVal Prim As Long) As Boolean
+    Dim i As Long                        
+    For i = 2 To Prim - 1                
+        If Prim Mod i = 0 Then           
+            Primzahl = False             
+            Exit Function                
+        End If                           
+    Next I                            
     Primzahl = True
 End Function
 
