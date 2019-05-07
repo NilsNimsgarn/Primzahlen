@@ -1,2 +1,0 @@
-# Primzahlen
-Erste Version
